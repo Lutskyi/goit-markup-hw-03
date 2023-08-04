@@ -167,7 +167,7 @@ p {
   background-color: #404bbf;
 }
 
-.caption.list .pic {
+.caption.list.pic {
   display: block;
 }
 .top.container {
@@ -179,4 +179,11 @@ p {
   justify-content: space-between;
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
+}
+
+.list.pic {
+  display: block;
+}
+.portfolio.pic {
+  display: block;
 }
