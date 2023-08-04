@@ -15,9 +15,22 @@ body {
   color: #434455;
   background-color: var(--White-background);
 }
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
 .list {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
+
 .link {
   text-decoration: none;
 }
@@ -152,4 +165,18 @@ body {
 .click.button:focus {
   color: #ffffff;
   background-color: #404bbf;
+}
+
+.caption.list .pic {
+  display: block;
+}
+.top.container {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--white, #fff);
 }

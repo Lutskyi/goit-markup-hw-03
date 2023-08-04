@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,23 +20,25 @@
     />
   </head>
   <body>
-    <header>
+    <div>
       <nav>
-        <a class="link logo" href="./index.html"
-          >Web<span class="link color">Studio</span></a
-        >
-        <ul class="list">
-          <li>
-            <a class="link nav" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="link nav" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="link nav" href="">Contacts</a>
-          </li>
-        </ul>
+        <div class="top container">
+          <a class="link logo" href="./index.html"
+            >Web<span class="link color">Studio</span></a>
+          <ul class="list">
+            <li>
+              <a class="link nav" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="link nav" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="link nav" href="">Contacts</a>
+            </li>
+          </ul>
+        </div>
       </nav>
+      <div class="container">
       <address class="place">
         <ul class="list">
           <li>
@@ -44,13 +53,17 @@
           </li>
         </ul>
       </address>
+    </div>
     </header>
     <main>
       <section class="part">
+        <div class="container">
         <h1 class="part title">Effective Solutions for Your Business</h1>
         <button class="part click" type="button">Order Service</button>
+        </div>
       </section>
       <section>
+        <div class="container">
         <h2>Advantages</h2>
         <ul class="list">
           <li>
@@ -82,20 +95,24 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <section>
+        <div class="container">
         <h2 class="caption">What are we doing</h2>
         <ul class="list">
           <li>
-            <img src="./images/Rectangle71.jpg" width="360" alt="computer" />
+            <img class="caption-list-pic" src="./images/Rectangle71.jpg" width="360" alt="computer" />
           </li>
-          <li><img src="./images/img12.jpg" width="360" alt="screenshot" /></li>
+          <li><img class="caption-list-pic" src="./images/img12.jpg" width="360" alt="screenshot" /></li>
           <li>
-            <img src="./images/Rectangle11.jpg" width="360" alt="telefon" />
+            <img class="caption-list-pic" src="./images/Rectangle11.jpg" width="360" alt="telefon" />
           </li>
         </ul>
+        </div>
       </section>
       <section class="subject">
+        <div class="container">
         <h2 class="caption">Our Team</h2>
         <ul class="list">
           <li class="list first">
@@ -119,9 +136,11 @@
             <p class="list text">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="end">
+      <div class="conyainer">
       <a class="link logo" href="./index.html"
         >Web<span class="end link color">Studio</span></a
       >
@@ -129,6 +148,7 @@
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
