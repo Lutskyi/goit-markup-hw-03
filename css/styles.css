@@ -30,12 +30,12 @@ p {
 }
 
 .container {
-  display: flex;
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.search-container {
+  display: flex;
 }
 .search {
   border-bottom: 1px solid #e7e9fc;
@@ -151,10 +151,36 @@ p {
   min-width: 169px;
   height: 56px;
   margin: auto;
+  border: none;
 }
-.part.click:hover,
-.part.click:focus {
+.click:hover,
+.click:focus {
   background-color: #404bbf;
+}
+
+.centr {
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.like {
+  display: flex;
+  gap: 24px;
+}
+
+.book {
+  flex-basis: calc((100% - 72px) / 4);
 }
 .list.set {
   color: var(--Dark);
