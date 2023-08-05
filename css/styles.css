@@ -27,14 +27,27 @@ p {
 }
 .list {
   list-style-type: none;
-  margin: 0;
-  padding-left: 0;
 }
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search {
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+}
+.nav-section {
+  display: flex;
+  align-items: center;
+}
 .link {
   text-decoration: none;
 }
-.link.logo {
+.logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -43,6 +56,8 @@ p {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
+  margin-left: 156px;
 }
 .link.color {
   color: #2e2f42;
@@ -56,12 +71,20 @@ p {
 }
 .link.nav {
   color: var(--Dark);
+  display: flex;
+  gap: 40px;
+  padding: 24px 0 24px;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-right: 40px;
+}
+
+.link .nav:last-child {
+  margin-right: 0;
 }
 .link.nav:hover,
 .link.nav:focus {
@@ -69,6 +92,14 @@ p {
 }
 .place {
   font-style: normal;
+}
+
+.adress.list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 156px;
+  padding: 24px 0 24px;
 }
 .link.adress {
   color: var(--Text);
@@ -170,20 +201,17 @@ p {
 .caption.list.pic {
   display: block;
 }
-.top.container {
-  display: flex;
-  width: 1440px;
-  height: 72px;
-  flex-shrink: 0;
-  flex-direction: row;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
+
+.search {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .list.pic {
   display: block;
 }
 .portfolio.pic {
+  display: block;
+}
+.picturce {
   display: block;
 }
