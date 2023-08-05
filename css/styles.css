@@ -69,8 +69,9 @@ p {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.search.list {
+.search-list {
   display: flex;
+  gap: 40px;
 }
 .link.nav {
   color: var(--Dark);
@@ -180,7 +181,7 @@ p {
 }
 
 .book {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .list.set {
   color: var(--Dark);
@@ -194,6 +195,7 @@ p {
 .list.text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .caption {
   color: var(--Dark);
