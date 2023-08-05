@@ -30,6 +30,7 @@ p {
 }
 
 .container {
+  display: flex;
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -37,7 +38,6 @@ p {
   margin-right: auto;
 }
 .search {
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 .nav-section {
