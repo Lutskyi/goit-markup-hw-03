@@ -69,6 +69,9 @@ p {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+.search.list {
+  display: flex;
+}
 .link.nav {
   color: var(--Dark);
   display: flex;
@@ -116,6 +119,7 @@ p {
 }
 .part {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .part.title {
   color: #ffffff;
@@ -126,9 +130,12 @@ p {
   line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
+  max-width: 496px;
+  margin: 191px 479px 48px 465px;
 }
 .part.click {
   color: #ffffff;
+  display: block;
   background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -137,6 +144,12 @@ p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  margin: 359px 642px 185px 629px;
+  border: none;
 }
 .part.click:hover,
 .part.click:focus {
