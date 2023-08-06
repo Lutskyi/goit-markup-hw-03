@@ -30,7 +30,7 @@ p {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -181,7 +181,7 @@ p {
 }
 
 .book {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100%-3 * 24px) / 4);
 }
 .set {
   color: var(--Dark);
@@ -217,7 +217,7 @@ p {
   margin-bottom: 120px;
 }
 .galary-paiting {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 .subject {
   background-color: #f4f4fd;
