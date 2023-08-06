@@ -217,7 +217,7 @@ p {
   margin-bottom: 120px;
 }
 .galary-paiting {
-  flex-basis: calc((100% - 3 * 16px) / 3);
+  flex-basis: calc((100%-3 * 16px) / 3);
 }
 .subject {
   background-color: #f4f4fd;
@@ -246,14 +246,22 @@ p {
 
 .end {
   background-color: var(--Dark);
+  padding: 100px 0;
 }
 .end.link.color {
   color: #f4f4fd;
 }
-.end.text {
+.end-text {
   color: var(--Light);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+  margin-left: 156px;
+}
+
+.end-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .click.button {
   color: #4d5ae5;
