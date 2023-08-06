@@ -87,7 +87,7 @@ p {
   margin-right: 40px;
 }
 
-.link .nav:last-child {
+.link.nav:last-child {
   margin-right: 0;
 }
 .link.nav:hover,
@@ -181,9 +181,9 @@ p {
 }
 
 .book {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
-.list.set {
+.set {
   color: var(--Dark);
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -191,12 +191,16 @@ p {
   font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.4px;
-}
-.list.text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
+.text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.galary {
+  padding-bottom: 120px;
+}
+
 .caption {
   color: var(--Dark);
   font-family: 'Roboto', sans-serif;
@@ -205,11 +209,24 @@ p {
   line-height: 1.11;
   text-transform: capitalize;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+.galary-list {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+.galary-paiting {
+  width: calc((100% - 48px) / 3);
 }
 .subject {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
-.list.first {
+.subject-list {
+  display: flex;
+}
+.first {
   background-color: #ffffff;
 }
 .end {
