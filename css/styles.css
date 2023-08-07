@@ -187,7 +187,7 @@ ul {
 }
 
 .book {
-  flex-basis: calc((100%-3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .set {
   color: var(--Dark);
@@ -223,7 +223,7 @@ ul {
   margin-bottom: 120px;
 }
 .galary-paiting {
-  flex-basis: calc((100%-3 * 16px) / 3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 .subject {
   background-color: #f4f4fd;
