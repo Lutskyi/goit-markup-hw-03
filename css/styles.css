@@ -25,6 +25,11 @@ h3 {
 p {
   margin: 0;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
 .list {
   list-style-type: none;
 }
@@ -36,6 +41,7 @@ p {
 }
 .search-container {
   display: flex;
+  align-items: center;
 }
 .search {
   border-bottom: 1px solid #e7e9fc;
@@ -57,7 +63,6 @@ p {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
-  margin-left: 156px;
 }
 .link.color {
   color: #2e2f42;
@@ -73,7 +78,7 @@ p {
   display: flex;
   gap: 40px;
 }
-.link.nav {
+.nav {
   color: var(--Dark);
   display: flex;
   gap: 40px;
@@ -87,25 +92,23 @@ p {
   margin-right: 40px;
 }
 
-.link.nav:last-child {
+.nav:last-child {
   margin-right: 0;
 }
-.link.nav:hover,
-.link.nav:focus {
+.nav:hover,
+.nav:focus {
   color: #404bbf;
 }
 .place {
   font-style: normal;
+  margin-left: 332px;
 }
 
-.adress.list {
+.adress {
   display: flex;
-  align-items: center;
   gap: 40px;
-  margin-right: 156px;
-  padding: 24px 0 24px;
 }
-.link.adress {
+.adress-link {
   color: var(--Text);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -113,9 +116,10 @@ p {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  align-items: center;
 }
-.link.adress:hover,
-.link.adress:focus {
+.adress-link:hover,
+.adress-link:focus {
   color: #404bbf;
 }
 .part {
@@ -258,7 +262,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
-  margin-left: 156px;
 }
 
 .end-logo {
